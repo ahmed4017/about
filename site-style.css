@@ -1,0 +1,474 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+ width: 95%; 
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center; 
+ justify-content: space-around;
+ position: fixed;
+ top: 10px;
+ left: 0px;
+ transform: translate(2.5%); 
+ color: white;
+ transition: none;
+}
+
+#menu{
+     display: flex;
+     flex-wrap: wrap; 
+     justify-content: space-around; 
+     width: 70% ;
+     
+}   
+.menuitem a{
+
+      text-decoration: none ;
+      text-transform: uppercase;
+      color: white;
+
+}
+
+.menuitem a:hover{
+
+    color: red;
+    transition: all 1s;
+}
+
+
+
+#socialLinks{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 7%; 
+    
+}
+#socialLinks i:hover{
+
+    color: red;
+    transition: all 1s;
+}
+#sidemenuicon i:hover{
+
+    color: red;
+    transition: all 1s;
+}
+
+
+#banner{
+    width: 100%;
+    height: 445px;
+    background-image: url("img/bg-title-page-03.jpg") ;
+    background-position: center;
+     color: white; 
+    font-size: 30px;
+    text-transform: uppercase;
+
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pragrah{
+    background-image: url(img/pattern2.png);
+}
+#pragrah h4{
+  
+text-align: center; 
+max-width: 868px;
+margin-right: auto;
+margin-left: auto;
+padding-bottom: 20px;
+font-family: Montserrat;
+font-weight: 400;
+font-size: 15px;
+line-height: 1.7;
+color: #666666;
+}
+
+#pragrah h2{
+    
+    font-family: Courgette;       
+font-size: 30px;
+line-height: 1.2;
+color: #d61c22;
+text-align: center;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+#pragrah h1{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#baground{
+     background-image: url(img/bg-intro-02.jpg);
+     background-position: center;
+     background-attachment: fixed; 
+     height: 450px;
+     width: 100%;
+    /* font-family: Poppins; */
+    /* font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 6px; */
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 35px;
+   /*  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+#Discover{
+     font-family: Courgette;       
+     font-size: 30px;
+     line-height: 1.2;
+     color: #d61c22;
+     text-align: center;
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+#OURVIDE{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+/* RECIPES */ 
+#RECIPES {
+    text-align: center;
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    align-items: center;
+}
+#RECIPES h2{
+    color:red;
+    font-style: italic;
+}
+#RECIPES h1{
+    font-size:  38px;
+    letter-spacing: 5px;
+}
+
+#RECIPEStext{
+    width: 45%;
+}
+#RECIPESimg{
+    width: 390px;
+    height: 390px;
+    background-image: url(img/our-story-01.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15px;
+    transition: all 1s;
+}
+#RECIPESimg:hover {
+    background-size: 110%;
+    transition: all 1.5s;
+}
+/* RESTAURANT */ 
+#RESTAURANT {
+    text-align: center;
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    align-items: center;
+}
+#RESTAURANT h2{
+    color:red;
+    font-style: italic;
+}
+#RESTAURANT h1{
+    font-size:  38px;
+    letter-spacing: 5px;
+}
+#RESTAURANTtext{
+    width: 45%;
+}
+#RESTAURANTimg{
+    width: 390px;
+    height: 390px;
+    background-image: url(img/our-story-02.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15px;
+    transition: all 1s;
+}
+#RESTAURANTimg:hover {
+    background-size: 110%;
+    transition: all 1.5s;
+}
+#divimg{
+    padding: 35px;
+    background-image: url(img/bg-01.jpg); 
+    background-position: center;
+    background-attachment: fixed; 
+    width: 100%;
+    height: 450px;
+    box-sizing: border-box;
+}
+ #Meet{
+     padding: 110px;
+     text-align: center;
+
+ }  
+ #Meet h2{
+     color: red;
+     font-style: italic;
+    
+ }
+ #Meet h1{
+    letter-spacing: 6px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+  #chff{
+     
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    margin-left: 135px;
+    margin-right: 165px;
+    position: relative;
+    top: 50px;
+    
+    
+ } 
+ .chffs{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: red;
+    border-style: solid;
+    transition: all 1s;
+    
+
+
+ }
+
+
+ #shafe h2{
+    padding-bottom: 2px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333333;
+    letter-spacing: 2px
+ }
+ #shafe p,h4{
+
+        text-align: center;
+        font-family: Montserrat;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 1.7;
+        color: #666666;
+        margin: 0px;
+ }
+ #shafe p{
+
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 300;
+   
+    font-size: 12px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 14px;
+    padding-top: 7px;
+
+
+    
+}
+#SPECIALS button{    background: #111111;
+    border-radius: 10px;
+
+    width: 160px;
+    height: 40px;
+    margin: 10px;
+
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.1;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+
+#shafe h2{
+    padding-bottom: 2px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333333;
+    letter-spacing: 2px
+ }
+
+ #footer{
+   
+    background-color:  #212529;;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 90px; 
+      
+ }
+ 
+ #footer div{
+    
+    width: 33%;
+ }
+
+#footer h2{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+#footer p{
+
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.7;
+    margin-bottom: 14px;
+    
+}
+ #footerright{
+    padding-bottom: 2px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333333;
+    letter-spacing: 2px;
+    
+ }
+
+ #footercenter{
+     
+    padding-bottom: 2px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333333;
+    letter-spacing: 2px;
+ }
+
+ .footcen a{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ec1d25;
+    line-height: 1.7;
+    text-decoration: none ;
+    
+ }
+ 
+ .footcen i{
+    color: #858484;
+ }
+
+  #footerleft{
+       
+     width: calc((100% - 50px) / 4 );
+    margin-right: 10px;
+    margin-bottom: 10px; 
+
+ } 
+ .imgstyle {
+
+    /* display: block; */
+    position: relative;
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+    margin-bottom: 10px; 
+ }
+ 
+
+#lastfoot{
+    background-color: rgb(14, 14, 14);
+    height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+ 
+}
+#icons{
+
+      /* display:  inline-block; */ 
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-around;
+      align-items: center; 
+      width: 10%;  
+      color: white;
+
+}
+#copyright p{
+
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #858484;
+    
+}
+
